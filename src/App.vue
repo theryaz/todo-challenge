@@ -1,20 +1,20 @@
 <template>
   <v-app>
     <v-main>
-      <SampleComponent msg="TODO: Create a todo list"/>
+      <TodoList msg="TODO: Create a todo list"/>
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import SampleComponent from './components/SampleComponent.vue';
+import TodoList from './components/TodoList.vue';
 
 export default Vue.extend({
   name: 'App',
 
   components: {
-    SampleComponent,
+    TodoList,
   },
 
   data: () => ({
